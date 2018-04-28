@@ -9,7 +9,7 @@ Tree models are very popular and powerful in supervised learning. The family of 
 Decision Tree algorithm is based on the concept of [information gain](https://en.wikipedia.org/wiki/Information_gain_in_decision_trees). While decision tree algorithm is very powerful, it might produce overfitting result. To improve the robustness of our model, random forest algorithm was introduced using bootstrap sampling and by splitting among a random set of features instead of all features([scikit learn reference](http://scikit-learn.org/stable/modules/ensemble.html)).
 
 ## Addictive Training using Gradient Boost
-Random Forest algorithm is certainly very powerful, but it does not learn from its own mistakes through all the iterations. Gradient Boosting utilized weak learners to addictively search for optimized solutions(Boosed Tree[https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf]). The main dropback of GBM is that training could take lots of time and memory. In fact for large datasets with sparse data, GBM will take too long to return meaningful result.
+Random Forest algorithm is certainly very powerful, but it does not learn from its own mistakes through all the iterations. Gradient Boosting utilized weak learners to addictively search for optimized solutions([Boosed Tree](https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf)). The main dropback of GBM is that training could take lots of time and memory. In fact for large datasets with sparse data, GBM will take too long to return meaningful result.
 
-##XGBoost acceleration and better
-To solve the problem of GBM requiring large memory and much time, 
+## XGBoost acceleration and better
+To solve the problem of GBM requiring large memory and much time,
