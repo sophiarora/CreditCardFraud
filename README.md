@@ -12,7 +12,7 @@ Decision Tree algorithm is based on the concept of [information gain](https://en
 Random Forest algorithm is certainly very powerful, but it does not learn from its own mistakes through all the iterations. Gradient Boosting utilized weak learners to addictively search for optimized solutions([Boosed Tree](https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf)). The main dropback of GBM is that training could take lots of time and memory. In fact for large datasets with sparse data, GBM will take too long to return meaningful result.
 
 ## XGBoost acceleration and better
-To solve the problem of GBM requiring large memory and much time, xgboost improved both the algorithm and system design to enable scale solution for gradient boosting trees[1]. 
+To solve the problem of GBM requiring large memory and much time, xgboost improved both the algorithm and system design to enable scale solution for gradient boosting trees[1].
 
 
 
